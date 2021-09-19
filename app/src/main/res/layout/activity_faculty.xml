@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context=".Faculty">
+
+    <WebView
+        android:id="@+id/facultyWeb"
+        android:layout_width="409dp"
+        android:layout_height="473dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/FacultyButtonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginBottom="133dp"
+        android:text="Search"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <Button
+        android:id="@+id/BackFaculty"
+        android:layout_width="409dp"
+        android:layout_height="92dp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:background="@color/design_default_color_secondary"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/facultyEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="202dp"
+        android:background="@drawable/ic_launcher_background"
+        android:ems="10"
+        android:hint="Faculty GLA ID Number"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#020202"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="173dp"
+        android:text="Enter after GLA(EXAMPLE: GLA000000 is your id so Enter only 000000)"
+        android:textColor="#3582BE"
+        android:textColorHint="#28618E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

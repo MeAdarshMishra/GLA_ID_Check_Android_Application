@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mainButtonStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="37dp"
+        android:text="STUDENT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="259dp" />
+
+    <Button
+        android:id="@+id/mainButtonFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="133dp"
+        android:textStyle="bold"
+        android:text="FACULTY"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Welcome to ID Checking Portal"
+        android:textColor="@color/teal_700"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="404dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="4dp"
+        android:text="Welcome to our page...here you can enter your GLA ID number and check whether you are registered in GLA or not!"
+        android:textColor="#0E4588"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="164dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="328dp"
+        android:text="For Student ID "
+        android:textColor="#40C237"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="130dp"
+        android:text="For Faculty ID Check"
+        android:textColor="#40C237"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="442dp" />
+</RelativeLayout>
