@@ -33,9 +33,7 @@ public class Student extends AppCompatActivity {
                     editStudent.setError("Not a valid RollNumber");
                 }
                 else {
-                    rollInt = Integer.parseInt(rollNumber);
-                    url = "https://glauniversity.in:8103/" + rollNumber + ".jpg";
-                    webStudent.loadUrl(url);
+                   // Want to know code? Contact - MeAdarshMishra!!
                 }
             }
         });
