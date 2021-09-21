@@ -33,9 +33,7 @@ public class Faculty extends AppCompatActivity {
                     editFaculty.setError("Not a valid GLAID");
                 }
                 else {
-                    IDInt = Integer.parseInt(glaid);
-                    urlfaculty = "https://glauniversity.in:8096/assets/profiles/GLA" + glaid + ".jpg";
-                    webFaculty.loadUrl(urlfaculty);
+                    //Want to know code? Contact me for code!!
                 }
             }
         });
