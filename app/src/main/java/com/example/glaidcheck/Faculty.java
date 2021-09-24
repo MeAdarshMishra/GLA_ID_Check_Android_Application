@@ -33,7 +33,7 @@ public class Faculty extends AppCompatActivity {
                     editFaculty.setError("Not a valid GLAID");
                 }
                 else {
-                    //Want to know code? Contact me for code!!
+                    //Want to know code? Contact me for code!!!
                 }
             }
         });
